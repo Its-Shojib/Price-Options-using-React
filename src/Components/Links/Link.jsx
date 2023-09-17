@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const Link = ({route}) => {
     let {path,name} = route;
     return (
@@ -6,5 +7,7 @@ const Link = ({route}) => {
         </div>
     );
 };
-
+Link.propTypes = {
+  route: PropTypes.object
+}
 export default Link;
