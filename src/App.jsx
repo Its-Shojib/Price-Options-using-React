@@ -1,9 +1,10 @@
+// import Navbar from './Components/Navbar/Navbar';
+import Nav from './Components/Nav/Nav';
 function App() {
-
-
   return (
     <>
-      <h1>Price Options</h1>
+      {/* <Navbar></Navbar> */}
+      <Nav></Nav>
     </>
   )
 }
